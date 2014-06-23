@@ -1,0 +1,15 @@
+# Site settings
+title: ""
+description: ""
+baseurl: ""
+url: "http://www.europivot.co.uk"
+
+# Build settings
+markdown: rdiscount
+permalink: pretty
+
+sass:
+ sass_dir: _sass
+ 
+sass:
+ style: :compressed
