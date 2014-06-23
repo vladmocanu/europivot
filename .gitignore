@@ -33,3 +33,5 @@ _site/
 *.tmproject
 tmtags
 
+### Sass ###
+.sass-cache
