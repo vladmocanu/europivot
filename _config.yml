@@ -1,0 +1,10 @@
+# Site settings
+
+title: "Europivot"
+description: ""
+
+publisher: Vlad Mocanu
+email: vlad.mocanu@me.com
+
+markdown: rdiscount
+permalink: pretty
