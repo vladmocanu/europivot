@@ -2,6 +2,7 @@
 name: "Europivot Limited"
 description: "Europivot Limited - Property development specialists"
 
+baseurl: /europivot
 
 # Build settings
 markdown: rdiscount
