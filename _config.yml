@@ -1,8 +1,7 @@
 # Site settings
 name: "Europivot Limited"
-description: ""
-baseurl: "/"
-url: "http://www.europivot.co.uk"
+description: "Europivot Limited - Property development specialists"
+
 
 # Build settings
 markdown: rdiscount
