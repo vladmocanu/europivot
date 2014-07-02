@@ -1,7 +1,8 @@
 var gulp = require('gulp');
-var deploy = require('gulp-gh-pages');
 
-gulp.task('deploy', function () {
-    gulp.src("./europivot/**/*")
-        .pipe(deploy('gh-pages'));
+
+// CSS minify and move
+gulp.task('move', function() {
+  gulp.src(['./_site/css/main.css'])
+    .pipe(gulp.dest('./css/'));
 });
