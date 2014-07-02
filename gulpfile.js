@@ -3,5 +3,5 @@ var deploy = require('gulp-gh-pages');
 
 gulp.task('deploy', function () {
     gulp.src("./europivot/**/*")
-        .pipe(deploy(gh-pages));
+        .pipe(deploy('gh-pages'));
 });
