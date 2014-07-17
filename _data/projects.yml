@@ -5,10 +5,10 @@
 
 - name: Project Kent
   src: ../images/projects/project_kent/loft_2.jpg
-  small: /images/projects/project_albans/loft_1_small.jpg
+  small: /images/projects/project_albans/loft_2_small.jpg
   description: 'Beatiful house'
 
 - name: Project London
   src: ../images/projects/project_london/loft_3.jpg
-  small: /images/projects/project_albans/loft_1_small.jpg
+  small: /images/projects/project_albans/loft_3_small.jpg
   description: 'Beatiful house'
