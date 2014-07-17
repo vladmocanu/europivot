@@ -30,6 +30,17 @@ figure {
 		padding: 1rem 0;
 		color: white;
 		text-align: center;
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transition: visibility .6s ease-in, opacity .6s ease-in;
+		-moz-transition: visibility .6s ease-in, opacity .6s ease-in;
+		-ms-transition: visibility .6s ease-in, opacity .6s ease-in;
+		-o-transition: visibility .6s ease-in, opacity .6s ease-in;
+		transition: visibility .6s ease-in, opacity .6s ease-in;
+	}
+	&:hover > figcaption {
+		visibility: visible;
+		opacity: 1;
 	}
 }
 main {
