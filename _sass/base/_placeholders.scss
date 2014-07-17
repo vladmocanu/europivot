@@ -1,0 +1,27 @@
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+		*zoom: 1;
+  }
+}
+
+%left {
+	float: left;
+}
+
+%height {
+	height: 50px;
+}
+
+%row {
+	margin-bottom: 1em;
+}
+
+%box {
+	padding: 1em .5em;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: grey;
+}
