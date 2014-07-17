@@ -1,0 +1,25 @@
+header {
+	background: coral;
+	@extend %row;
+	@extend %clearfix; /* floated elements inside header */
+	div {
+		@extend %container;
+		@extend %clearfix;
+	}
+	h1 {
+		@extend %left;
+	}
+	nav {
+		@extend %right;
+	}
+	li {
+		float: left;
+		margin-right: 2rem;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	a {
+		@extend %button;
+	}
+}
