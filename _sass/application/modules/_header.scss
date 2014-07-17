@@ -1,6 +1,6 @@
 header {
+	padding: 1rem 0;
 	background: coral;
-	@extend %row;
 	@extend %clearfix; /* floated elements inside header */
 	div {
 		@extend %container;

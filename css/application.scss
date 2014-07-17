@@ -18,3 +18,16 @@ svg, img {
 	max-width: 100%;
 	float:left;
 }
+main {
+	@extend %container;
+	@include respond-to(60) {
+		article:nth-child(2) {
+			@include column-size(50);
+			float:left;
+		}
+		article:nth-child(3) {
+			@include column-size(50);
+			float: right;
+		}
+	}
+}

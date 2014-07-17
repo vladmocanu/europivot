@@ -6,24 +6,20 @@
 		*zoom: 1;
   }
 }
-
 %left {
 	float: left;
 }
 %right {
 	float: right;
 }
-
 %row {
 	margin-bottom: 1rem;
 }
-
 %container {
 	max-width: 1140px;
 	width: 100%;
 	margin: 0 auto;
 }
-
 %button {
 	display: inline-block;
 	background: transparent;
