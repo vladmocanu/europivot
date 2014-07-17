@@ -18,6 +18,20 @@ img {
 	max-width: 100%;
 	float:left;
 }
+figure {
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+	figcaption {
+		position: absolute;
+		bottom: 0;
+		background: rgba(211, 17, 72, .8);
+		width: 100%;
+		padding: 1rem 0;
+		color: white;
+		text-align: center;
+	}
+}
 main {
 	@extend %container;
 	@include respond-to(60) {

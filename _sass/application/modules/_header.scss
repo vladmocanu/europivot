@@ -1,6 +1,7 @@
 @import 'application/objects/navigation';
 
 header {
+	margin-bottom: .5rem;
 	@extend %clearfix; /* floated elements inside header */
 	@include respond-to (641/16) {
 			padding: 1rem 0;
@@ -13,21 +14,15 @@ header {
 			text-align: left;
 		}
 	}
-	
+	nav {
+		padding: 1rem 0;
+	}
 	svg {
 		width: 12rem;
 		height: 5rem;
 	}
-	nav {
-		padding: 1.5rem;
-		float:right;
-	}
 	li {
-		float: left;
-		margin-right: 2rem;
-		&:last-child {
-			margin-right: 0;
-		}
+		display: inline;
 	}
 	a {
 		@extend %menu-item;
