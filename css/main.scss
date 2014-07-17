@@ -81,7 +81,12 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 }
 .main-container {
+	padding: 0;
 	section {
+		width: 33.33333%;
+		display: block;
+		height: 450px;
+		float: left;
 	}
 	.pj1 {
 		background: rgb(0,123,108);
@@ -94,24 +99,8 @@ h1, h2, h3, h4, h5, h6, p {
 		background: rgb(199,61,0);
 	}
 	
-	article {
-		padding: 2em 1.7em;
-		@media screen and (min-width:45em) {
-			width:100%;
-			max-width: 1140px;
-			padding: 5em 5.7em;
-			margin: 0 auto;
-		}
-	}
 }
-article {
-	text-align: center;
-	img {
-		border: 4px solid whitesmoke;
-		box-shadow: 0 0 10px 0 #444;
-		margin-bottom: 2em;
-	}
-} 
+
 /* Clearfix */
 
 .clearfix:before,
