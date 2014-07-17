@@ -6,15 +6,15 @@
 @import 'base/grid';
 @import 'base/placeholders';
 @import 'application/typography';
-@import 'application/objects/buttons';
 @import 'application/objects/lists';
+@import 'application/objects/buttons';
 @import 'application/modules/header';
 
 
 * {
 	@include border-box;
 }
-svg, img {
+img {
 	max-width: 100%;
 	float:left;
 }

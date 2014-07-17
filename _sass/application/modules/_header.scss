@@ -1,16 +1,26 @@
+@import 'application/objects/navigation';
+
 header {
-	padding: 1rem 0;
-	background: coral;
 	@extend %clearfix; /* floated elements inside header */
+	@include respond-to (641/16) {
+			padding: 1rem 0;
+	}
 	div {
+		text-align: center;
 		@extend %container;
 		@extend %clearfix;
+		@include respond-to(641/16) {
+			text-align: left;
+		}
 	}
-	h1 {
-		@extend %left;
+	
+	svg {
+		width: 12rem;
+		height: 5rem;
 	}
 	nav {
-		@extend %right;
+		padding: 1.5rem;
+		float:right;
 	}
 	li {
 		float: left;
@@ -20,6 +30,6 @@ header {
 		}
 	}
 	a {
-		@extend %button;
+		@extend %menu-item;
 	}
 }

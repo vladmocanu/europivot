@@ -1,0 +1,13 @@
+@import 'base/variables';
+
+%menu-item {
+		display: block;
+		font-weight: bold;
+		color: #444;
+		padding: .5em 1em;
+		text-decoration: none;
+		text-transform: uppercase;
+		&:hover {
+			color: $color-main;
+		}
+}
