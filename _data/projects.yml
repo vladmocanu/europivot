@@ -1,15 +1,15 @@
 - name: Project Albans
-  large: ../images/projects/project_albans/loft_1_large.jpg
-  medium: ../images/projects/project_albans/loft_1_medium.jpg
+  large: /images/projects/project_albans/loft_1_large.jpg
+  medium: /images/projects/project_albans/loft_1_medium.jpg
   small: /images/projects/project_albans/loft_1_small.jpg
   description: 'Project - Albans House'
 
 - name: Project Kent
-  medium: ../images/projects/project_kent/loft_2.jpg
+  medium: /images/projects/project_kent/loft_2.jpg
   small: /images/projects/project_kent/loft_2_small.jpg
   description: 'Project - Kent House'
 
 - name: Project London
-  medium: ../images/projects/project_london/loft_3.jpg
+  medium: /images/projects/project_london/loft_3.jpg
   small: /images/projects/project_london/loft_3_small.jpg
   description: 'Project - London House'
