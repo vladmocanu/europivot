@@ -26,5 +26,7 @@ header {
 	}
 	a {
 		@extend %menu-item;
+		font-size: .85rem;
+		font-weight: normal;
 	}
 }
