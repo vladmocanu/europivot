@@ -17,6 +17,10 @@
   description: 'Project - Kent House'
 
 - name: Project London
-  medium: /images/projects/project_london/loft_3.jpg
+  large: /images/projects/project_london/loft_3_large.jpg
+  large2x: /images/projects/project_london/loft_3_large@2.jpg 
+  medium: /images/projects/project_london/loft_3_medium.jpg
+  medium2x: /images/projects/project_london/loft_3_medium@2.jpg  
   small: /images/projects/project_london/loft_3_small.jpg
+  small2x: /images/projects/project_london/loft_3_small@2.jpg
   description: 'Project - London House'
