@@ -25,21 +25,27 @@ figure {
 	figcaption {
 		position: absolute;
 		bottom: 0;
-		background: rgba(211, 17, 72, .8);
 		width: 100%;
-		padding: 1rem 0;
-		color: white;
-		text-align: center;
-		visibility: hidden;
-		opacity: 0;
-		-webkit-transition: visibility .6s ease-in, opacity .6s ease-in;
-		-moz-transition: visibility .6s ease-in, opacity .6s ease-in;
-		-ms-transition: visibility .6s ease-in, opacity .6s ease-in;
-		-o-transition: visibility .6s ease-in, opacity .6s ease-in;
-		transition: visibility .6s ease-in, opacity .6s ease-in;
+		height: 0;
+		background: rgba(0, 123, 108, .85);
+		opacity:0;
+		-webkit-transition: all .30s ease-out, opacity .30s ease-out;
+		-moz-transition: all .30s ease-out, opacity .30s ease-out;
+		-ms-transition: all .30s ease-out, opacity .30s ease-out;
+		-o-transition: all .30s ease-out, opacity .30s ease-out;
+		transition: all .30s ease-out, opacity .30s ease-out;
+		a {
+			display: block;
+			text-decoration: none;
+			color: white;
+			text-align: center;
+			line-height: 3;
+		}
 	}
+	
+	
 	&:hover > figcaption {
-		visibility: visible;
+		height: 50px;
 		opacity: 1;
 	}
 }
