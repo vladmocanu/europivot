@@ -8,8 +8,12 @@
   description: 'Project - Albans House'
 
 - name: Project Kent
-  medium: /images/projects/project_kent/loft_2.jpg
+  large: /images/projects/project_kent/loft_2_large.jpg
+  large2x: /images/projects/project_kent/loft_2_large@2.jpg 
+  medium: /images/projects/project_kent/loft_2_medium.jpg
+  medium2x: /images/projects/project_kent/loft_2_medium@2.jpg  
   small: /images/projects/project_kent/loft_2_small.jpg
+  small2x: /images/projects/project_kent/loft_2_small@2.jpg
   description: 'Project - Kent House'
 
 - name: Project London
