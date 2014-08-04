@@ -8,8 +8,8 @@ description: "Property development Specialist"
 		<figure>
 			<picture>
 				<source srcset="{{ site.baseurl }}{{ project.large }}, {{ site.baseurl }}{{ project.large2x }}" media="(min-width: 60em)">
-				<source srcset="{{ site.baseurl }}{{ project.medium }}" media="(min-width: 40em)">					
-				<img srcset="{{ site.baseurl }}{{ project.small }}" alt="">
+				<source srcset="{{ site.baseurl }}{{ project.medium }}, {{ site.baseurl }}{{ project.medium2x}}" media="(min-width: 40em)">					
+				<img srcset="{{ site.baseurl }}{{ project.small }}, {{ site.baseurl }}{{ project.small2x }}" alt="{{ project.description }}">
 			</picture>
 			
 			<figcaption><a href="">{{ project.description }}</a></figcaption>

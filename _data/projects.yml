@@ -1,8 +1,10 @@
 - name: Project Albans
   large: /images/projects/project_albans/loft_1_large.jpg
-  large2x: /images/projects/project_albans/loft_1_xtralarge.jpg 
+  large2x: /images/projects/project_albans/loft_1_large@2.jpg 
   medium: /images/projects/project_albans/loft_1_medium.jpg
+  medium2x: /images/projects/project_albans/loft_1_medium@2.jpg  
   small: /images/projects/project_albans/loft_1_small.jpg
+  small2x: /images/projects/project_albans/loft_1_small@2.jpg  
   description: 'Project - Albans House'
 
 - name: Project Kent
