@@ -19,9 +19,10 @@ img {
 	float:left;
 }
 figure {
-	margin: 0;
+	margin: 0 0 .5rem 0;
 	position: relative;
 	overflow: hidden;
+	
 	figcaption {
 		position: absolute;
 		bottom: 0;
