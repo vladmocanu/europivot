@@ -8,6 +8,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="/css/application.css">
+		<script>
+		// Picture element HTML5 shiv
+		document.createElement( "picture" );
+		</script>
+		<script src="/scripts/picturefill.min.js" async></script>
 	</head>
 	<body>
 	<header>
@@ -120,21 +125,36 @@
 			
 	<article>
 		<figure>
-			<img src="/images/projects/project_albans/loft_1_small.jpg" alt="" />
+			<picture>
+				<source srcset="../images/projects/project_albans/loft_1_large.jpg" media="(min-width: 60em)">
+				<source srcset="../images/projects/project_albans/loft_1_medium.jpg" media="(min-width: 40em)">					
+				<img srcset="/images/projects/project_albans/loft_1_small.jpg" alt="">
+			</picture>
+			
 			<figcaption><a href="">Project - Albans House</a></figcaption>
 		</figure>
 	</article>
 
 	<article>
 		<figure>
-			<img src="/images/projects/project_kent/loft_2_small.jpg" alt="" />
+			<picture>
+				<source srcset="" media="(min-width: 60em)">
+				<source srcset="../images/projects/project_kent/loft_2.jpg" media="(min-width: 40em)">					
+				<img srcset="/images/projects/project_kent/loft_2_small.jpg" alt="">
+			</picture>
+			
 			<figcaption><a href="">Project - Kent House</a></figcaption>
 		</figure>
 	</article>
 
 	<article>
 		<figure>
-			<img src="/images/projects/project_london/loft_3_small.jpg" alt="" />
+			<picture>
+				<source srcset="" media="(min-width: 60em)">
+				<source srcset="../images/projects/project_london/loft_3.jpg" media="(min-width: 40em)">					
+				<img srcset="/images/projects/project_london/loft_3_small.jpg" alt="">
+			</picture>
+			
 			<figcaption><a href="">Project - London House</a></figcaption>
 		</figure>
 	</article>

@@ -6,7 +6,12 @@ description: "Property development Specialist"
 {% for project in site.data.projects %}
 	<article>
 		<figure>
-			<img src="{{ site.baseurl}}{{ project.small }}" alt="" />
+			<picture>
+				<source srcset="{{ site.baseurl }}{{ project.large }}" media="(min-width: 60em)">
+				<source srcset="{{ site.baseurl }}{{ project.medium }}" media="(min-width: 40em)">					
+				<img srcset="{{ site.baseurl }}{{ project.small }}" alt="">
+			</picture>
+			
 			<figcaption><a href="">{{ project.description }}</a></figcaption>
 		</figure>
 	</article>
