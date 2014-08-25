@@ -1,12 +1,2 @@
 @import 'base/variables';
 
-%menu-item {
-		font-weight: bold;
-		color: #444;
-		padding: .5em;
-		text-decoration: none;
-		text-transform: uppercase;
-		&:hover {
-			color: $color-main;
-		}
-}

@@ -31,5 +31,10 @@ header {
 				left: .5rem;
 				right: .5rem;
 		}
+		&:active {
+			background: $color-secondary;
+			color: #fff;
+			@include user-select(none);
+		}
 	}
 }

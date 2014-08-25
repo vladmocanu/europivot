@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300|Open+Sans:400,300);
-
+@import 'base/variables';
 $base-font-family: 'Open Sans', sans-serif;
 $accent-font-family: 'Oswald', sans-serif;
 $base-font-weight: 400;
@@ -87,6 +87,7 @@ body {
 h1 {
 	@extend %accent-font;
 	@extend %heading-1;
+
 }
 h2 {
 	@extend %accent-font;
