@@ -25,8 +25,11 @@ header {
 		display: inline;
 	}
 	a {
-		@extend %menu-item;
-		font-size: .85rem;
-		font-weight: normal;
+		@extend %link;
+		@extend %accent-font;
+		padding: {
+				left: .5rem;
+				right: .5rem;
+		}
 	}
 }
