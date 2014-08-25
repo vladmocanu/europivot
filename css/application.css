@@ -449,6 +449,14 @@ header {
   header a {
     padding-left: .5rem;
     padding-right: .5rem; }
+    header a:active {
+      background: #d31148;
+      color: #fff;
+      -webkit-webkit-user-select: none;
+      -moz-webkit-user-select: none;
+      -ms-webkit-user-select: none;
+      -o-webkit-user-select: none;
+      user-select: none; }
 
 footer {
   padding: 4rem 0;
