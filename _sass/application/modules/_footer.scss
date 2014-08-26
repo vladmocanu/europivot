@@ -1,5 +1,37 @@
 footer {
 	@extend %clearfix;
-	padding: 4rem 0;
-	background: $color-secondary;
+	padding: .5rem 0;
+	background: #444;
+	box-shadow:inset 0 0 100px 0px #3C3C3C;
+	@include respond-to(960/16) {
+		padding: 1rem 0;
+	}
+	div {
+		overflow: hidden;
+		@extend %container;
+	}
+	p {
+		color: #E0E0E0;
+		//text-decoration: none;
+		font-size: .75rem;
+		font-weight: 300;
+		text-align: center;
+		@include respond-to(641/16) {
+			float: left;
+			font-size: .58rem;
+			@include column-size(100/3);
+		}
+		@include respond-to(960/16) {
+			font-size: .85rem;
+		}
+	}
+	a {
+		color: #e0e0e0;
+		text-decoration: none;
+		border-bottom: 1px solid #e0e0e0;
+		&:hover, &:active {
+			color: darken(#e0e0e0, 20);
+			border-bottom-color: darken(#e0e0e0, 20);
+		}
+	}
 }

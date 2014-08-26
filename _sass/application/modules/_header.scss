@@ -4,9 +4,6 @@ header {
 	padding: .25rem 0;
 	background: #f4f4f4;
 	@extend %clearfix; /* floated elements inside header */
-	@include respond-to (641/16) {
-			padding: .5rem 0;
-	}
 	div {
 		text-align: center;
 		@extend %container;

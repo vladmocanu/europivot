@@ -3,24 +3,16 @@ layout: home-page
 description: "Property development Specialist"
 ---
 
-	<article>
-		<h1>Heading One Level</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, dignissimos, beatae quam adipisci nulla ratione et cumque illum doloremque recusandae fugit qui repudiandae perspiciatis laborum veritatis error alias blanditiis saepe molestias cupiditate quos praesentium quaerat consequuntur. Est, pariatur explicabo! Fugit, voluptatum, nulla hic dicta ipsam iusto tempore incidunt recusandae reiciendis.
-		</p>
-		<h2>Heading Level Two</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatibus, quas, at nam quod sint ea incidunt a laborum quo eum inventore placeat odio numquam nisi maiores mollitia atque nobis ad eligendi. Aliquam, nemo, consequuntur beatae expedita molestiae quisquam mollitia accusantium rem soluta aperiam. Eligendi autem error aperiam soluta itaque.
-		</p>
-		<h3>Heading Level 3</h3>
-		
-<!-- 		<figure>
-	<picture>
+{% for project in site.data.projects %}
+<article>
+	<figure>
+		<picture>
 		<source srcset="{{ site.baseurl }}{{ project.large }}, {{ site.baseurl }}{{ project.large2x }}" media="(min-width: 60em)">
 		<source srcset="{{ site.baseurl }}{{ project.medium }}, {{ site.baseurl }}{{ project.medium2x}}" media="(min-width: 40em)">					
 		<img srcset="{{ site.baseurl }}{{ project.small }}, {{ site.baseurl }}{{ project.small2x }}" alt="{{ project.description }}">
-	</picture>
-	
-	<figcaption><a href="">{{ project.description }}</a></figcaption>
-</figure>
- -->	</article>
-{% for project in site.data.projects %}	
+		</picture>
+
+		<figcaption><a href="">{{ project.description }}</a></figcaption>
+	</figure>
+</article> 
 {% endfor %}
