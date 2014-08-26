@@ -4,7 +4,8 @@ header {
 	margin-bottom: .5rem;
 	@extend %clearfix; /* floated elements inside header */
 	@include respond-to (641/16) {
-			padding: 1rem 0;
+			padding: .5rem 0;
+			background: #f4f4f4;
 	}
 	div {
 		text-align: center;
@@ -15,26 +16,37 @@ header {
 		}
 	}
 	nav {
-		padding: .5rem 0;
+		@include respond-to(960/16) {
+			padding: .25rem 0;
+			float: right;
+		}
 	}
 	svg {
-		width: 12rem;
-		height: 5rem;
+		width: 10rem;
+		@include respond-to(960/16) {
+			float: left;
+		}
 	}
 	li {
 		display: inline;
 	}
 	a {
-		@extend %link;
-		@extend %accent-font;
 		padding: {
 				left: .5rem;
 				right: .5rem;
 		}
+		@extend %link;
+		@extend %accent-font;
 		&:active {
-			background: $color-secondary;
-			color: #fff;
+			color: $color-main;
 			@include user-select(none);
+			@include border-radius(2)
+		}
+		@include respond-to(960/16) {
+			font-size: .75em;
+			&:hover {
+				color: $color-main;
+			};
 		}
 	}
 }

@@ -433,30 +433,44 @@ header {
   /* floated elements inside header */ }
   @media only screen and (min-width: 40.0625em) {
     header {
-      padding: 1rem 0; } }
+      padding: .5rem 0;
+      background: #f4f4f4; } }
   header div {
     text-align: center; }
     @media only screen and (min-width: 60em) {
       header div {
         text-align: left; } }
-  header nav {
-    padding: .5rem 0; }
+  @media only screen and (min-width: 60em) {
+    header nav {
+      padding: .25rem 0;
+      float: right; } }
   header svg {
-    width: 12rem;
-    height: 5rem; }
+    width: 10rem; }
+    @media only screen and (min-width: 60em) {
+      header svg {
+        float: left; } }
   header li {
     display: inline; }
   header a {
     padding-left: .5rem;
     padding-right: .5rem; }
     header a:active {
-      background: #d31148;
-      color: #fff;
+      color: #007b6c;
       -webkit-webkit-user-select: none;
       -moz-webkit-user-select: none;
       -ms-webkit-user-select: none;
       -o-webkit-user-select: none;
-      user-select: none; }
+      user-select: none;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px; }
+    @media only screen and (min-width: 60em) {
+      header a {
+        font-size: .75em; }
+        header a:hover {
+          color: #007b6c; } }
 
 footer {
   padding: 4rem 0;
