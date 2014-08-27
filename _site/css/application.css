@@ -375,11 +375,11 @@ body {
       font-size: 1.375rem;
       line-height: 2.0625; } }
 
-h1, h2, h3, header a {
+h1, h2, h3, header a, .hp a {
   font-family: 'Oswald', sans-serif;
   font-weight: 300; }
   @media only screen and (min-width: 60em) {
-    h1, h2, h3, header a {
+    h1, h2, h3, header a, .hp a {
       font-weight: 400; } }
 
 h1 {
@@ -418,7 +418,7 @@ h3 {
       margin-top: 2.0625rem;
       margin-bottom: 2.0625rem; } }
 
-header a {
+header a, .hp a {
   text-decoration: none;
   text-transform: uppercase;
   color: inherit; }
@@ -515,4 +515,44 @@ figure {
   overflow: hidden; }
 
 .hp figcaption {
-  position: absolute; }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 8%;
+  background: rgba(0, 0, 0, 0.2);
+  transition: background .5s ease-in-out; }
+.hp h3 {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #fff;
+  background: rgba(0, 123, 108, 0.8);
+  clear: both;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+.hp a {
+  display: block;
+  text-align: center;
+  background: rgba(211, 17, 72, 0.8);
+  transition: all .5s ease-in-out;
+  color: #f4f4f4;
+  width: 35%;
+  padding: .25rem 0;
+  margin: 0 auto;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+  @media only screen and (min-width: 40.0625em) {
+    .hp a {
+      width: 15%; } }
+.hp figure:hover figcaption {
+  background: transparent; }
+.hp figure:hover a {
+  background: #d31148;
+  color: #fff; }
