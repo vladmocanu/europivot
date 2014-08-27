@@ -431,6 +431,7 @@ ul {
 header {
   padding: .25rem 0;
   background: #f4f4f4;
+  border-bottom: 4px solid #d31148;
   /* floated elements inside header */ }
   header div {
     text-align: center; }
