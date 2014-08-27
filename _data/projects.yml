@@ -1,11 +1,9 @@
-- name: Project Albans
-  large: /images/projects/project_albans/loft_1_large.jpg
-  large2x: /images/projects/project_albans/loft_1_large@2.jpg 
-  medium: /images/projects/project_albans/loft_1_medium.jpg
-  medium2x: /images/projects/project_albans/loft_1_medium@2.jpg  
-  small: /images/projects/project_albans/loft_1_small.jpg
-  small2x: /images/projects/project_albans/loft_1_small@2.jpg  
-  description: 'Project - Albans House'
+- name: Agar-Grove
+  xlarge: /images/projects/agar-grove/agar-grove-XL.jpg
+  large: /images/projects/agar-grove/agar-grove-L.jpg
+  medium: /images/projects/agar-grove/agar-grove-M.jpg
+  small: /images/projects/agar-grove/agar-grove-S.jpg
+  description: 'Agar-Grove, Camden, London'
 
 - name: Project Kent
   large: /images/projects/project_kent/loft_2_large.jpg

@@ -359,7 +359,7 @@ header:after, header div:after, footer:after {
   clear: both;
   *zoom: 1; }
 
-header div, footer div, main {
+header div, footer div {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto; }
@@ -509,35 +509,9 @@ img {
   float: left; }
 
 figure {
-  margin: 0 0 .5rem 0;
+  margin: 0;
   position: relative;
   overflow: hidden; }
-  figure figcaption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 0;
-    background: rgba(0, 123, 108, 0.85);
-    opacity: 0;
-    -webkit-transition: all .30s ease-out, opacity .30s ease-out;
-    -moz-transition: all .30s ease-out, opacity .30s ease-out;
-    -ms-transition: all .30s ease-out, opacity .30s ease-out;
-    -o-transition: all .30s ease-out, opacity .30s ease-out;
-    transition: all .30s ease-out, opacity .30s ease-out; }
-    figure figcaption a {
-      display: block;
-      text-decoration: none;
-      color: white;
-      text-align: center;
-      line-height: 3; }
-  figure:hover > figcaption {
-    height: 50px;
-    opacity: 1; }
 
-@media only screen and (min-width: 60em) {
-  main article:nth-child(2) {
-    width: 50%;
-    float: left; }
-  main article:nth-child(3) {
-    width: 50%;
-    float: right; } }
+.hp figcaption {
+  position: absolute; }

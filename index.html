@@ -7,9 +7,10 @@ description: "Property development Specialist"
 <article>
 	<figure>
 		<picture>
-		<source srcset="{{ site.baseurl }}{{ project.large }}, {{ site.baseurl }}{{ project.large2x }}" media="(min-width: 60em)">
-		<source srcset="{{ site.baseurl }}{{ project.medium }}, {{ site.baseurl }}{{ project.medium2x}}" media="(min-width: 40em)">					
-		<img srcset="{{ site.baseurl }}{{ project.small }}, {{ site.baseurl }}{{ project.small2x }}" alt="{{ project.description }}">
+			<source srcset="{{ site.baseurl }}{{ project.xlarge }}" media="(min-width: 80em)">
+			<source srcset="{{ site.baseurl }}{{ project.large }}" media="(min-width: 60em)">
+			<source srcset="{{ site.baseurl }}{{ project.medium }}" media="(min-width: 40em)">					
+			<img srcset="{{ site.baseurl }}{{ project.small }}" alt="{{ project.description }}">
 		</picture>
 
 		<figcaption><a href="">{{ project.description }}</a></figcaption>
