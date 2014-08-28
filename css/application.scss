@@ -57,9 +57,6 @@ figure {
 		transition: all .5s ease-in-out;
 		@extend %link;
 		@extend %accent-font;
-		@include respond-to(641/16) {
-			width: 15%;
-		}
 		@include respond-to(960/16) {
 			display: block;
 			text-align: center;

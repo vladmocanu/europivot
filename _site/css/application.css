@@ -546,9 +546,6 @@ figure {
   background: rgba(211, 17, 72, 0);
   padding: .3rem .5rem;
   transition: all .5s ease-in-out; }
-  @media only screen and (min-width: 40.0625em) {
-    .hp a {
-      width: 15%; } }
   @media only screen and (min-width: 60em) {
     .hp a {
       display: block;
