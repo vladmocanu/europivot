@@ -1,21 +1,22 @@
 ---
-layout: default
+layout: home-page
 description: "Property development Specialist"
 ---
 
-<section class="pj1">
-	<article class="clearfix">
-		<iframe src="//instagram.com/p/pv7ao_zUVU/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-	</article>
-</section>
-<section class="pj2">
-	<article class="clearfix">
-		<iframe src="//instagram.com/p/cccVi/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-	</article>
-</section>
-<section class="pj3">
-	<article class="clearfix">
-		<img src="http://placehold.it/1140x400" alt="" />
-		<a href="" class="btn">View project</a>
-	</article>
-</section>
+{% for project in site.data.projects %}
+<article>
+	<figure>
+		<picture>
+			<source srcset="{{ site.baseurl }}{{ project.xlarge }}" media="(min-width: 80em)">
+			<source srcset="{{ site.baseurl }}{{ project.large }}" media="(min-width: 60em)">
+			<source srcset="{{ site.baseurl }}{{ project.medium }}" media="(min-width: 40em)">					
+			<img srcset="{{ site.baseurl }}{{ project.small }}" alt="{{ project.description }}">
+		</picture>
+
+		<figcaption>
+			<h3>{{ project.description }}</h3>
+			<a href="">{{ project.description }}</a>
+		</figcaption>
+	</figure>
+</article> 
+{% endfor %}
