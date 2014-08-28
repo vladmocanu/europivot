@@ -446,6 +446,7 @@ header {
     width: 10rem; }
     @media only screen and (min-width: 60em) {
       header svg {
+        margin-left: .4rem;
         float: left; } }
   header li {
     display: inline; }
