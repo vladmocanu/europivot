@@ -525,21 +525,19 @@ figure {
   @media only screen and (min-width: 60em) {
     .hp figcaption {
       padding-top: 8%; } }
-.hp h3 {
-  display: none; }
-  @media only screen and (min-width: 60em) {
-    .hp h3 {
-      display: inline-block;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      color: #fff;
-      background: rgba(0, 123, 108, 0.8);
-      clear: both;
-      -webkit-border-radius: 2px;
-      -moz-border-radius: 2px;
-      -ms-border-radius: 2px;
-      -o-border-radius: 2px;
-      border-radius: 2px; } }
+@media only screen and (min-width: 60em) {
+  .hp h3 {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #fff;
+    background: rgba(0, 123, 108, 0.8);
+    clear: both;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; } }
 .hp a {
   color: #f4f4f4;
   font-size: .85rem;
