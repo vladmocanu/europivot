@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300|Open+Sans:400,300);
+@import 'base/variables';
+$base-font-family: 'Open Sans', sans-serif;
+$accent-font-family: 'Oswald', sans-serif;
+$base-font-weight: 400;
+$thin-font-weight: 300;
+
+$base-font-size: 1rem;
+$base-line-height: 1.5rem;
+
+%base-scale {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #444;
+	@include respond-to(60) {
+		font-size: 1.375rem;
+		line-height: 2.0625;
+	}
+}
+%accent-font {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	@include respond-to(60) {
+		font-weight: 400;
+	}
+}
+%heading-1 {
+	font-size: 2.375rem;
+	line-height: 1.5;
+	margin: {
+		top: 0;
+		bottom: 1.5rem;
+	}
+	@include respond-to(60) {
+		font-size: 4.625rem;
+		line-height: 2.0625;
+		margin: {
+			top: 0rem;
+			bottom: 2.0625rem;
+		}
+	}
+}
+%heading-2 {
+	font-size: 1.75rem;
+	line-height: 1.5;
+	margin: {
+		top: 3rem;
+		bottom: 1.5rem;
+	}
+	@include respond-to(60) {
+		font-size: 3.125rem;
+		line-height: 2.0625;
+		margin: {
+			top: 4.125rem;
+			bottom: 2.0625rem;
+		}
+	}
+}
+%heading-3 {
+	font-size: 1.3125rem;
+	line-height: 1.5;
+	margin: {
+		top: 1.5rem;
+		bottom: 1.5rem;
+	}
+	@include respond-to(60) {
+		font-size: 2.0625rem;
+		line-height: 2.0625;
+		margin: {
+			top: 2.0625rem;
+			bottom: 2.0625rem;
+		}
+	}
+}
+%link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+}
+
+body {
+	@extend %base-scale;
+}
+
+h1 {
+	@extend %accent-font;
+	@extend %heading-1;
+
+}
+h2 {
+	@extend %accent-font;
+	@extend %heading-2;
+}
+h3 {
+	@extend %accent-font;
+	@extend %heading-3;
+}
+
+
+
+
+// Input and button elements do not inherit styles from body element
