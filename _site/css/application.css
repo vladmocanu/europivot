@@ -353,13 +353,13 @@ td,
 th {
   padding: 0; }
 
-header:after, header div:after, footer:after {
+header:after, header div:after, footer:after, .agar-grove:after, section:after {
   content: "";
   display: table;
   clear: both;
   *zoom: 1; }
 
-header div {
+header div, .agar-grove {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto; }
@@ -566,3 +566,23 @@ figure {
     .hp a:hover h3 {
       background: #d31148;
       color: #fff; } }
+
+@media only screen and (min-width: 40em) {
+  aside {
+    float: left;
+    width: 30%; } }
+
+@media only screen and (min-width: 40em) {
+  section {
+    width: 70%;
+    float: left; } }
+@media only screen and (min-width: 40em) {
+  section figure {
+    float: left;
+    padding: 0 .25rem;
+    width: 50%; } }
+@media only screen and (min-width: 40em) {
+  section img {
+    margin-bottom: .5rem; }
+    section img:last-of-type {
+      margin-bottom: 0; } }
