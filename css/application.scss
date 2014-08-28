@@ -49,25 +49,24 @@ figure {
 		@include border-radius(2);
 		}
 	}
-	a {
-		color: #f4f4f4;
-		font-size: .85rem;
-		background: rgba(211, 17, 72, 0);
-		padding: .3rem .5rem;
-		transition: all .5s ease-in-out;
-		@extend %link;
-		@extend %accent-font;
-		@include respond-to(960/16) {
-			display: block;
-			text-align: center;
-			background: rgba(211, 17, 72, .8);
-			width: 35%;
-			padding: .25rem 0;
-			margin: 0 auto;
-			@include border-radius(2);
-		}
-
-	}
+	//a {
+	//	color: #f4f4f4;
+	//	font-size: .85rem;
+	//	background: rgba(211, 17, 72, 0);
+	//	padding: .3rem .5rem;
+	//	transition: all .5s ease-in-out;
+	//	@extend %link;
+	//	@extend %accent-font;
+	//	@include respond-to(960/16) {
+	//		display: block;
+	//		text-align: center;
+	//		background: rgba(211, 17, 72, .8);
+	//		width: 35%;
+	//		padding: .25rem 0;
+	//		margin: 0 auto;
+	//		@include border-radius(2);
+	//	}
+	//}
 	figure:hover figcaption {
 		background: rgba(0,0,0, 0);
 	};
