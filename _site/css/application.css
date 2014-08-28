@@ -522,26 +522,35 @@ figure {
   padding-top: 20%;
   background: rgba(0, 0, 0, 0.6);
   transition: background .5s ease-in-out; }
-  @media only screen and (min-width: 60em) {
+  @media only screen and (min-width: 40em) {
     .hp figcaption {
-      padding-top: 8%; } }
+      padding-top: 14%; } }
 .hp h3 {
-  display: none; }
+  font-size: .85rem;
+  margin: 0;
+  background: rgba(211, 17, 72, 0);
+  display: inline-block;
+  transition: all .5s ease-in-out;
+  color: #f4f4f4; }
+  @media only screen and (min-width: 40em) {
+    .hp h3 {
+      font-size: 1rem; } }
   @media only screen and (min-width: 60em) {
     .hp h3 {
-      display: inline-block;
       padding-left: 2rem;
       padding-right: 2rem;
-      color: #fff;
-      background: rgba(0, 123, 108, 0.8);
-      clear: both;
+      font-size: 2.0625rem;
       -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
       -ms-border-radius: 2px;
       -o-border-radius: 2px;
       border-radius: 2px; } }
-.hp figure:hover figcaption {
-  background: transparent; }
-.hp figure:hover a {
-  background: #d31148;
-  color: #fff; }
+@media only screen and (min-width: 60em) {
+  .hp a:hover figcaption {
+    background: transparent; } }
+.hp a:hover h3 {
+  background: rgba(211, 17, 72, 0); }
+  @media only screen and (min-width: 60em) {
+    .hp a:hover h3 {
+      background: #d31148;
+      color: #fff; } }
