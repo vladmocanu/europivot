@@ -13,6 +13,11 @@
 * {
 	@include border-box;
 }
+
+body {
+	background: #f4f4f4;
+}
+
 img {
 	max-width: 100%;
 	float: left;
@@ -23,6 +28,12 @@ figure {
 	overflow: hidden;
 }
 .hp {
+	@include respond-to(960/16) {
+		max-width: 1000px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
 	figcaption {
 		position: absolute;
 		width: 100%;
@@ -32,7 +43,7 @@ figure {
 		background: rgba(0,0,0, .6);
 		transition: background .5s ease-in-out;
 		@include respond-to (640/16) {
-			padding-top: 14%;
+			padding-top: 18%;
 		}
 	}
 	h3 {

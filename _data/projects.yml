@@ -1,24 +1,17 @@
 - name: agar-grove
-  xlarge: /images/projects/agar-grove/agar-grove-XL.jpg
   large: /images/projects/agar-grove/agar-grove-L.jpg
   medium: /images/projects/agar-grove/agar-grove-M.jpg
   small: /images/projects/agar-grove/agar-grove-S.jpg
   description: 'Agar Grove, Camden, London'
 
 - name: arepa-co
-  large: /images/projects/project_kent/loft_2_large.jpg
-  large2x: /images/projects/project_kent/loft_2_large@2.jpg 
-  medium: /images/projects/project_kent/loft_2_medium.jpg
-  medium2x: /images/projects/project_kent/loft_2_medium@2.jpg  
-  small: /images/projects/project_kent/loft_2_small.jpg
-  small2x: /images/projects/project_kent/loft_2_small@2.jpg
+  large: /images/projects/arepa-co/arepa-co-L.jpg
+  medium: /images/projects/arepa-co/arepa-co-M.jpg
+  small: /images/projects/arepa-co/arepa-co-S.jpg
   description: 'Arepa & Co, Haggerston, London'
 
 - name: baxendale
-  large: /images/projects/project_london/loft_3_large.jpg
-  large2x: /images/projects/project_london/loft_3_large@2.jpg 
-  medium: /images/projects/project_london/loft_3_medium.jpg
-  medium2x: /images/projects/project_london/loft_3_medium@2.jpg  
-  small: /images/projects/project_london/loft_3_small.jpg
-  small2x: /images/projects/project_london/loft_3_small@2.jpg
+  large: /images/projects/baxendale/baxendale-L.jpg
+  medium: /images/projects/baxendale/baxendale-M.jpg
+  small: /images/projects/baxendale/baxendale-S.jpg
   description: 'Baxendale Street, Tower Hanlet, London'
