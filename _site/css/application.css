@@ -353,7 +353,7 @@ td,
 th {
   padding: 0; }
 
-header:after, header div:after, footer:after, .agar-grove:after, section:after {
+header:after, header div:after, footer:after, .agar-grove:after, section:after, section div:after {
   content: "";
   display: table;
   clear: both;
@@ -375,11 +375,11 @@ body {
       font-size: 1.375rem;
       line-height: 2.0625; } }
 
-h1, h2, h3, header a {
+h1, h2, h3, header a, aside a, section a {
   font-family: 'Oswald', sans-serif;
   font-weight: 300; }
   @media only screen and (min-width: 60em) {
-    h1, h2, h3, header a {
+    h1, h2, h3, header a, aside a, section a {
       font-weight: 400; } }
 
 h1 {
@@ -418,7 +418,7 @@ h3 {
       margin-top: 2.0625rem;
       margin-bottom: 2.0625rem; } }
 
-header a {
+header a, aside a, section a {
   text-decoration: none;
   text-transform: uppercase;
   color: inherit; }
@@ -561,21 +561,61 @@ figure {
   .hp a:hover figcaption {
     background: transparent; } }
 .hp a:hover h3 {
-  background: rgba(211, 17, 72, 0); }
+  background: rrgba(0, 123, 108, 0); }
   @media only screen and (min-width: 60em) {
     .hp a:hover h3 {
-      background: #d31148;
+      background: rgba(0, 123, 108, 0.8);
       color: #fff; } }
+
+.agar-grove {
+  padding: 0 .5rem; }
+  @media only screen and (min-width: 40em) {
+    .agar-grove {
+      padding: 0; } }
 
 @media only screen and (min-width: 40em) {
   aside {
     float: left;
     padding: 0 1rem;
     width: 40%; } }
+aside h2 {
+  color: #007b6c;
+  margin-top: 1rem;
+  margin-bottom: 0; }
+  @media only screen and (min-width: 40em) {
+    aside h2 {
+      line-height: 1.2; } }
+  @media only screen and (min-width: 60em) {
+    aside h2 {
+      line-height: 1.5; } }
+aside div {
+  display: none; }
+  @media only screen and (min-width: 40em) {
+    aside div {
+      display: block; } }
 
 @media only screen and (min-width: 40em) {
   section {
     width: 60%;
     float: left; } }
 section img {
+  margin-bottom: .5rem; }
+  section img:last-of-type {
+    margin-bottom: 0; }
+section div {
+  display: inline-block;
+  margin-bottom: 1rem; }
+  @media only screen and (min-width: 40em) {
+    section div {
+      display: none; } }
+
+aside a, section a {
+  display: block;
+  border-bottom: 2px solid #d31148;
+  text-transform: none; }
+  aside a:hover, section a:hover {
+    color: #777777;
+    border-bottom: 2px solid #eb1350; }
+
+aside h3, section h3 {
   margin-bottom: .5rem; }

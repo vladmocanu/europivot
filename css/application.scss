@@ -17,7 +17,6 @@
 body {
 	background: #f4f4f4;
 }
-
 img {
 	max-width: 100%;
 	float:left;
@@ -71,23 +70,43 @@ figure {
 		}
 	};
 	a:hover h3 {
-		background: rgba(211, 17, 72, 0);
+		background: rrgba(0, 123, 108, 0);
 		@include respond-to(960/16) {
-			background: rgba(211, 17, 72, 1);
+			background: rgba(0, 123, 108, .8);
 			color: #fff;
 		}
 	};
 }
 .agar-grove {
+	padding: 0 .5rem;
 	@extend %container;
 	@extend %clearfix;
+	@include respond-to(640/16){
+		padding: 0;
+	}
 }
-
 aside {
 	@include respond-to(640/16) {
 		float: left;
 		padding: 0 1rem;
 		@include column-size(40);
+	}
+	h2 {
+		color: $color-main;
+		margin-top: 1rem;
+		margin-bottom: 0;
+		@include respond-to(640/16) {
+			line-height: 1.2;
+		}
+		@include respond-to(960/16) {
+			line-height: 1.5;
+		}
+	}
+	div {
+		display: none;
+		@include respond-to(640/16) {
+			display: block;
+		}
 	}
 }
 section {
@@ -96,8 +115,33 @@ section {
 		@include column-size(60);
 		float: left;
 	}
-	
 	img {
 		margin-bottom: .5rem;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
 	}
+	div {
+		display: inline-block;
+		margin-bottom: 1rem;
+		@extend %clearfix;
+		@include respond-to(640/16) {
+			display: none;
+		}
+	}
+}
+aside a, section a {
+	display: block;
+	border-bottom: 2px solid $color-secondary;
+	text-transform: none;
+	@extend %accent-font;
+	@extend %link;
+	&:hover {
+		color: lighten(#444, 20);
+		border-bottom: 2px solid lighten($color-secondary, 5);
+	}
+	
+}
+aside h3, section h3 {
+	margin-bottom: .5rem;
 }
