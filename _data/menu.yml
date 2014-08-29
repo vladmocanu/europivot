@@ -1,0 +1,6 @@
+- name: 'Projects'
+  url: /
+- name: 'About Us'
+  url: /about-us/
+- name: 'Contact'
+  url: /contact/
