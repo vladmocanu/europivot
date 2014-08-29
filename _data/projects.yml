@@ -1,0 +1,42 @@
+- name: 'Agar Grove, Camden, London'
+  url: /projects/agar-grove/
+  text: "The idea was to maximise the sense of space as well as keeping a simple and efficient layout. We successfully achieved this with the introduction of a single volume located central to the loft. Detached from the façades and ceilings this element has divided the open plan into several spaces for different uses such as Kitchen-Dinning, Living Room, Storage, Bathroom and a Mezzanine for the sleeping area. The 4.5 m height party wall and roof eaves have been fully used with bookshelves and storage which serve the whole space. The stair to access the mezzanine level was cleverly integrated into this single piece of furniture. The rest was about keeping a simple palette in terms of materials and colours to allow the objects, the art and books to give the wall an authentic and colourful touch."
+  large: /images/projects/agar-grove/agar-grove-L.jpg
+  medium: /images/projects/agar-grove/agar-grove-M.jpg
+  small: /images/projects/agar-grove/agar-grove-S.jpg
+  folder: /agar-grove/
+  images:
+    - file: agar-grove-1.jpg
+    - file: agar-grove-2.jpg
+    - file: agar-grove-3.jpg
+    - file: agar-grove-4.jpg
+    - file: agar-grove-5.jpg
+    - file: agar-grove-6.jpg
+
+- name: 'Arepa & Co, Haggerston, London'
+  url: /projects/arepa-co/
+  text: "Ideally located in upcoming Haggerston, Arepa & Co. is the natural sequel and stable response to a long established weekend stall in Camden Market. The new venue overlooks Regents’ Canal with a southern aspect thus thoroughly enjoys a grand view and abundant light. Keeping in mind its location, the proposal places the sitting area facing the waterway, and divides the space into a lounge and a dining area. The rear portion of the building is designed to host the bar and the kitchen, which physically opens over it. The décor is created from honest, reclaimed materials able to mirror the Caribbean magnetic character of the establishment blending it in seamlessly with the popular but funky identity of Haggerston."
+  large: /images/projects/arepa-co/arepa-co-L.jpg
+  medium: /images/projects/arepa-co/arepa-co-M.jpg
+  small: /images/projects/arepa-co/arepa-co-S.jpg
+  folder: /arepa-co/
+  images:
+    - file: arepa-co-1.jpg
+    - file: arepa-co-2.jpg
+    - file: arepa-co-3.jpg
+    - file: arepa-co-4.jpg			
+  
+- name: 'Baxendale Street, Tower Hanlet, London'
+  url: /projects/baxendale-street/
+  text: "This terraced house, set within a conservation area, entailed an exhaustive intervention. The project required Craft Design to thoroughly redesign the existing space. The original fragmented layout, scattered with internal visual constrains, was converted into an airy open area thus enhancing the perceived volume of the house. A generous usage of glass panels as the staircase roof and in the side return extension, allows the building to feel open and to truly enjoy light."
+  large: /images/projects/baxendale/baxendale-L.jpg
+  medium: /images/projects/baxendale/baxendale-M.jpg
+  small: /images/projects/baxendale/baxendale-S.jpg
+  folder: /baxendale/
+  images:
+    - file: baxendale-1.jpg
+    - file: baxendale-2.jpg
+    - file: baxendale-3.jpg
+    - file: baxendale-4.jpg
+    - file: baxendale-5.jpg
+    - file: baxendale-6.jpg

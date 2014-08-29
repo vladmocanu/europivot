@@ -1,6 +1,6 @@
 <header>
 	<div>
-		<a href="/">
+		<a href="{{ site.baseurl }}">
 			<svg version="1.1"
 				 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 				 x="0px" y="0px" width="168px" height="57px" viewBox="0 0 168 57" overflow="visible" enable-background="new 0 0 168 57"
@@ -97,7 +97,7 @@
 			</svg></a>
 		<nav>
 			<ul>
-				{% for item in site.data.settings.menu %}
+				{% for item in site.data.menu %}
 					<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
 				{% endfor %}
 
