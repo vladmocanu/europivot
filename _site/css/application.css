@@ -538,7 +538,8 @@ figure {
     .hp figcaption {
       padding-top: 18%; } }
 .hp h3 {
-  font-size: .85rem;
+  font-size: 1rem;
+  font-weight: 400;
   margin: 0;
   background: rgba(211, 17, 72, 0);
   display: inline-block;
