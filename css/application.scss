@@ -40,7 +40,7 @@ figure {
 		height: 100%;
 		text-align: center;
 		padding-top: 20%;
-		background: rgba(0,0,0, .6);
+		background: rgba(0,0,0, .3);
 		transition: background .5s ease-in-out;
 		@include respond-to (640/16) {
 			padding-top: 18%;
@@ -86,29 +86,18 @@ figure {
 aside {
 	@include respond-to(640/16) {
 		float: left;
-		@include column-size(30);
+		padding: 0 1rem;
+		@include column-size(40);
 	}
 }
 section {
 	@extend %clearfix;
 	@include respond-to(640/16) {
-		@include column-size(70);
+		@include column-size(60);
 		float: left;
-	}
-	figure {
-		@include respond-to(640/16) {
-			float:left;
-			padding: 0 .25rem;
-			@include column-size(50);
-		}
 	}
 	
 	img {
-		@include respond-to(640/16) {
-			margin-bottom: .5rem;
-			&:last-of-type {
-				margin-bottom: 0;
-			}
-		}
+		margin-bottom: .5rem;
 	}
 }

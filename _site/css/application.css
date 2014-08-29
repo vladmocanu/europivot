@@ -532,7 +532,7 @@ figure {
   height: 100%;
   text-align: center;
   padding-top: 20%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   transition: background .5s ease-in-out; }
   @media only screen and (min-width: 40em) {
     .hp figcaption {
@@ -570,19 +570,12 @@ figure {
 @media only screen and (min-width: 40em) {
   aside {
     float: left;
-    width: 30%; } }
+    padding: 0 1rem;
+    width: 40%; } }
 
 @media only screen and (min-width: 40em) {
   section {
-    width: 70%;
+    width: 60%;
     float: left; } }
-@media only screen and (min-width: 40em) {
-  section figure {
-    float: left;
-    padding: 0 .25rem;
-    width: 50%; } }
-@media only screen and (min-width: 40em) {
-  section img {
-    margin-bottom: .5rem; }
-    section img:last-of-type {
-      margin-bottom: 0; } }
+section img {
+  margin-bottom: .5rem; }
