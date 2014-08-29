@@ -353,13 +353,13 @@ td,
 th {
   padding: 0; }
 
-header:after, header div:after, footer:after, .agar-grove:after, section:after, section div:after {
+header:after, header div:after, footer:after, .agar-grove:after, .arepa-co:after, .baxendale:after, section:after, section div:after {
   content: "";
   display: table;
   clear: both;
   *zoom: 1; }
 
-header div, .agar-grove {
+header div, .agar-grove, .arepa-co, .baxendale {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto; }
@@ -567,10 +567,10 @@ figure {
       background: rgba(0, 123, 108, 0.8);
       color: #fff; } }
 
-.agar-grove {
+.agar-grove, .arepa-co, .baxendale {
   padding: 0 .5rem; }
   @media only screen and (min-width: 40em) {
-    .agar-grove {
+    .agar-grove, .arepa-co, .baxendale {
       padding: 0; } }
 
 @media only screen and (min-width: 40em) {
