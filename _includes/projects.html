@@ -1,0 +1,17 @@
+					<div>
+						<h3>Other projects</h3>
+						
+						{% case page.class %}
+						{% when 'agar-grove' %}
+							<a href="{{ site.baseurl }}{{ site.data.projects[1].url }}">{{ site.data.projects[1].name }}</a>
+							<a href="{{ site.baseurl }}{{ site.data.projects[2].url }}">{{ site.data.projects[2].name }}</a>
+							
+						{% when 'arepa-co' %}
+							<a href="{{ site.baseurl }}{{ site.data.projects[0].url }}">{{ site.data.projects[0].name }}</a>
+							<a href="{{ site.baseurl }}{{ site.data.projects[2].url }}">{{ site.data.projects[2].name }}</a>
+							
+						{% when 'baxendale' %}
+							<a href="{{ site.baseurl }}{{ site.data.projects[0].url }}">{{ site.data.projects[0].name }}</a>
+							<a href="{{ site.baseurl }}{{ site.data.projects[1].url }}">{{ site.data.projects[1].name }}</a>
+						{% endcase %}	
+					</div>

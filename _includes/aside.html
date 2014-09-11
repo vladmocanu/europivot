@@ -1,0 +1,28 @@
+			<aside>
+					{% case page.class %}
+					{% when 'agar-grove' %}
+						<h2>{{ site.data.projects[0].name}}</h2>
+						<p>{{site.data.projects[0].text}}</p>
+						<div>
+							<h3>Other projects</h3>
+							<a href="{{ site.baseurl }}{{ site.data.projects[1].url }}">{{ site.data.projects[1].name }}</a>
+							<a href="{{ site.baseurl }}{{ site.data.projects[2].url }}">{{ site.data.projects[2].name }}</a>
+						</div>
+					{% when 'arepa-co' %}
+						<h2>{{ site.data.projects[1].name}}</h2>
+						<p>{{site.data.projects[1].text}}</p>
+						<div>
+							<h3>Other projects</h3>
+							<a href="{{ site.baseurl }}{{ site.data.projects[0].url }}">{{ site.data.projects[0].name }}</a>
+							<a href="{{ site.baseurl }}{{ site.data.projects[2].url }}">{{ site.data.projects[2].name }}</a>
+						</div>
+					{% when 'baxendale' %}
+						<h2>{{ site.data.projects[2].name}}</h2>
+						<p>{{site.data.projects[2].text}}</p>
+						<div>
+							<h3>Other projects</h3>
+							<a href="{{ site.baseurl }}{{ site.data.projects[0].url }}">{{ site.data.projects[0].name }}</a>
+							<a href="{{ site.baseurl }}{{ site.data.projects[1].url }}">{{ site.data.projects[1].name }}</a>
+						</div>
+					{% endcase %}
+			</aside>
